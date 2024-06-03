@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding-right: 0;
+}
+
+#logo{
+    color: black;
+    font-size: 30pt;
+    font-family: 'open sans', sans-serif;
+    text-decoration: none;
+    padding: 0 0 0 30px;
+}
+
+#dot{
+    color:blue;
+
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    background-color: green;
+    height: 70px;
+    padding: 0 30px 0 30px;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+    font-family: 'open sans', sans-serif;
+    padding: 0 50px 0 30px;
+   
+}
+
+.nav-items{
+    color: black;
+    text-decoration: none;
+}
+
+#mad{ 
+    align-items: center;
+    font-family: 'open-sans', sans-serif;
+}
+#f2{
+    font-family: 'open-sans', sans-serif;
+
+}
