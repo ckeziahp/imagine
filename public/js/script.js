@@ -68,10 +68,49 @@ const tweet1 = {
   } else {
     console.log('Class is in session');
   }
-  
+
     // For Loop
     for (let i = 0; i <=9; i++) {
     console.log('Notify friends!', i);
   }
   
-  
+  // Functions
+// Defining funtions
+function login(username,password) {
+  if (username =='ckeziah'&& password =='1234'){
+     return 'User is logged in!';
+  }else{
+    return 'Invalid username or password!';
+  }
+ }
+ // Invoking functions
+ login('ckeziah','1234');
+ 
+ // Basic Arithmetic
+ 12 + 64;
+ 3 + 5;
+ 7 * 12;
+ 78 / 4;
+ 78 % 4;
+ 
+ 37/24
+ // Comparison operators
+ 2 == 2 ;
+ 2 == '2';
+ 3 !== 2;
+ 3 !== 3;
+ 
+ //Built-in Math funtions
+ Math.round(37/24);
+ Math.floor(37/24);
+ Math.ceil(37/24);
+ Math.random();
+ Math.max(78, 12, 21, 87);
+ 
+ Math.ceil(Math.random() * 1000000)
+ 
+ // Order of operations
+ 1 * 2 + 3 - 4 / 2 % 2**2
+ 
+ // Handling user inputs
+ 1200 + Number('250') ;
