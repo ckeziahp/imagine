@@ -50,5 +50,9 @@ body{
     font-family: 'open-sans', sans-serif;
     color: black;
     align-items: center;
-
+    justify-content: center;
+    display: flex;
+}
+#par{
+    align-items: center;
 }
