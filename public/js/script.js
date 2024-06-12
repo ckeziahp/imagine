@@ -167,3 +167,48 @@ alphabets.join('');
 alphabets.join('').split('');
 
 
+// // write a funtion that takes a user with name and dateOfBirth and returns true if their birthday is today else false
+
+// const user = {
+//   name: 'Martin King',
+//   dateOfBirth:'1990-06-12'
+
+// };
+
+function isBirthday(user){
+  const today = new Date();
+  const birthDate = new Date(user.dateOfBirth);
+  if (today.getMonth() === birthDate.getMonth() && 
+      today.getDate() === birthDate.getDate()
+     ){
+    return true;
+  } else{
+    return false;
+  }
+  return('true');
+}
+ isBirthday(user);
+  
+
+// write a funtion that takes a user with name and dateOfBirth and returns birthday with their if their birthday is today else return is not birthday
+
+function BirthdayMessage(user){
+  const today = new Date();
+  const userBirthday = new Date(user.dateOfBirth);
+  // console.log(getBirthdayMessage(user));
+  
+  if (today.getMonth() === userBirthday.getMonth() && 
+      today.getDate()=== userBirthday.getDate()){
+    const age = today.getFullYear() - userBirthday.getFullYear();
+    return `Happy Birthday, ${user.name}!`;
+  } else{
+    return 'not your day'
+  }
+}
+BirthdayMessage(user);
+
+
+
+BirthdayMessage();
+
+// Objects in JavaScript
